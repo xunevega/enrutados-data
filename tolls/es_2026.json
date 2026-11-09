@@ -1,0 +1,3613 @@
+{
+ "country": "ES",
+ "year": 2026,
+ "valid_from": "2026-01-01",
+ "currency": "EUR",
+ "vehicle": "light",
+ "generated_by": "tools/tolls/build_tolls.py",
+ "note": "Precios oficiales del Mitma (peajes actuales).",
+ "not_covered": [
+  "AP-46: barrera suelta; requiere geocodificar Casabermeja.",
+  "AP-7 Alicante-Cartagena: sus pares usan nombres de enlace, no pueblos."
+ ],
+ "motorways": [
+  {
+   "id": "AP-66",
+   "name": "Campomanes-León",
+   "type": "od",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-66,-campomanes---leon-2026.pdf",
+   "prices": [
+    {
+     "from": "CAMPOMANES",
+     "to": "OBLANCA",
+     "light": 5.9,
+     "heavy1": 4.25,
+     "heavy2": 5.45
+    },
+    {
+     "from": "CAMPOMANES",
+     "to": "LA MAGDALENA",
+     "light": 10.2,
+     "heavy1": 7.35,
+     "heavy2": 9.35
+    },
+    {
+     "from": "CAMPOMANES",
+     "to": "LEON",
+     "light": 16.2,
+     "heavy1": 11.7,
+     "heavy2": 15.05
+    },
+    {
+     "from": "OBLANCA",
+     "to": "LA MAGDALENA",
+     "light": 4.3,
+     "heavy1": 3.1,
+     "heavy2": 3.9
+    },
+    {
+     "from": "OBLANCA",
+     "to": "LEON",
+     "light": 10.3,
+     "heavy1": 7.45,
+     "heavy2": 9.6
+    },
+    {
+     "from": "LA MAGDALENA",
+     "to": "LEON",
+     "light": 6.3,
+     "heavy1": 4.55,
+     "heavy2": 5.8
+    },
+    {
+     "from": "CAMPOMANES",
+     "to": "OBLANCA",
+     "light": 5.0,
+     "heavy1": 4.12,
+     "heavy2": 2.35
+    },
+    {
+     "from": "CAMPOMANES",
+     "to": "LA MAGDALENA",
+     "light": 8.65,
+     "heavy1": 7.12,
+     "heavy2": 4.07
+    },
+    {
+     "from": "CAMPOMANES",
+     "to": "LEON",
+     "light": 13.75,
+     "heavy1": 11.32,
+     "heavy2": 6.47
+    },
+    {
+     "from": "OBLANCA",
+     "to": "LA MAGDALENA",
+     "light": 3.65,
+     "heavy1": 3.0,
+     "heavy2": 1.72
+    },
+    {
+     "from": "OBLANCA",
+     "to": "LEON",
+     "light": 8.75,
+     "heavy1": 7.2,
+     "heavy2": 4.12
+    },
+    {
+     "from": "LA MAGDALENA",
+     "to": "LEON",
+     "light": 5.37,
+     "heavy1": 4.42,
+     "heavy2": 2.53
+    }
+   ]
+  },
+  {
+   "id": "AP-46",
+   "name": "Alto de las Pedrizas-Málaga",
+   "type": "barrier",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-46,-alto-de-las-pedrizas---malaga-2026.pdf",
+   "barriers": [
+    {
+     "name": "TRONCAL DE CASABERMEJA",
+     "light": 4.35,
+     "heavy1": 6.0,
+     "heavy2": 8.7
+    }
+   ]
+  },
+  {
+   "id": "AP-51",
+   "name": "AP-6, conexión con Ávila",
+   "type": "od",
+   "tariff": "levels",
+   "levels": [
+    "valle",
+    "normal",
+    "punta"
+   ],
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-51,-conexion-ap-6---avila-2026.pdf",
+   "prices": [
+    {
+     "from": "VILLACASTÍN",
+     "to": "VICOLOZANO",
+     "valle": 1.1,
+     "normal": 1.75,
+     "punta": 2.95,
+     "light": 1.75,
+     "heavy1": 3.7,
+     "heavy2": 4.65
+    },
+    {
+     "from": "VILLACASTÍN",
+     "to": "ÁVILA",
+     "valle": 1.1,
+     "normal": 1.75,
+     "punta": 2.95,
+     "light": 1.75,
+     "heavy1": 3.7,
+     "heavy2": 4.65
+    },
+    {
+     "from": "CONEXIÓN AP-6",
+     "to": "VICOLOZANO",
+     "valle": 1.05,
+     "normal": 1.75,
+     "punta": 2.9,
+     "light": 1.75,
+     "heavy1": 3.65,
+     "heavy2": 4.55
+    },
+    {
+     "from": "CONEXIÓN AP-6",
+     "to": "ÁVILA",
+     "valle": 1.05,
+     "normal": 1.75,
+     "punta": 2.9,
+     "light": 1.75,
+     "heavy1": 3.65,
+     "heavy2": 4.55
+    },
+    {
+     "from": "VICOLOZANO",
+     "to": "ÁVILA",
+     "valle": 0.0,
+     "normal": 0.0,
+     "punta": 0.0,
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "VILLALBA",
+     "to": "VICOLOZANO",
+     "valle": 11.15,
+     "normal": 11.85,
+     "punta": 13.0,
+     "light": 11.85,
+     "heavy1": 29.1,
+     "heavy2": 33.25
+    },
+    {
+     "from": "VILLALBA",
+     "to": "ÁVILA",
+     "valle": 11.15,
+     "normal": 11.85,
+     "punta": 13.0,
+     "light": 11.85,
+     "heavy1": 29.1,
+     "heavy2": 33.25
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "VICOLOZANO",
+     "valle": 4.25,
+     "normal": 4.95,
+     "punta": 6.1,
+     "light": 4.95,
+     "heavy1": 10.4,
+     "heavy2": 11.9
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "ÁVILA",
+     "valle": 4.25,
+     "normal": 4.95,
+     "punta": 6.1,
+     "light": 4.95,
+     "heavy1": 10.4,
+     "heavy2": 11.9
+    },
+    {
+     "from": "ÁVILA",
+     "to": "ADANERO",
+     "valle": 5.7,
+     "normal": 6.4,
+     "punta": 7.55,
+     "light": 6.4,
+     "heavy1": 12.8,
+     "heavy2": 14.65
+    },
+    {
+     "from": "VICOLOZANO",
+     "to": "ADANERO",
+     "valle": 5.7,
+     "normal": 6.4,
+     "punta": 7.55,
+     "light": 6.4,
+     "heavy1": 12.8,
+     "heavy2": 14.65
+    }
+   ]
+  },
+  {
+   "id": "AP-53",
+   "name": "Santiago-Alto de Santo Domingo",
+   "type": "od",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-53,-santiago---alto-de-santo-domingo-2026.pdf",
+   "prices": [
+    {
+     "from": "Santiago",
+     "to": "Ribadulla",
+     "light": 2.0,
+     "heavy1": 1.65,
+     "heavy2": 2.0
+    },
+    {
+     "from": "Santiago",
+     "to": "Bandeira",
+     "light": 3.3,
+     "heavy1": 2.75,
+     "heavy2": 3.3
+    },
+    {
+     "from": "Santiago",
+     "to": "Silleda",
+     "light": 4.35,
+     "heavy1": 3.65,
+     "heavy2": 4.35
+    },
+    {
+     "from": "Santiago",
+     "to": "Lalín Oeste",
+     "light": 7.25,
+     "heavy1": 6.1,
+     "heavy2": 7.25
+    },
+    {
+     "from": "Santiago",
+     "to": "Lalín Centro",
+     "light": 7.25,
+     "heavy1": 6.1,
+     "heavy2": 7.25
+    },
+    {
+     "from": "Santiago",
+     "to": "Lalín Este",
+     "light": 7.25,
+     "heavy1": 6.1,
+     "heavy2": 7.25
+    },
+    {
+     "from": "Santiago",
+     "to": "Alto de Santo Domingo",
+     "light": 7.25,
+     "heavy1": 6.1,
+     "heavy2": 7.25
+    },
+    {
+     "from": "Ribadulla",
+     "to": "Bandeira",
+     "light": 1.4,
+     "heavy1": 1.15,
+     "heavy2": 1.35
+    },
+    {
+     "from": "Ribadulla",
+     "to": "Silleda",
+     "light": 2.45,
+     "heavy1": 2.05,
+     "heavy2": 2.45
+    },
+    {
+     "from": "Ribadulla",
+     "to": "Lalín Oeste",
+     "light": 5.35,
+     "heavy1": 4.5,
+     "heavy2": 5.35
+    },
+    {
+     "from": "Ribadulla",
+     "to": "Lalín Centro",
+     "light": 5.35,
+     "heavy1": 4.5,
+     "heavy2": 5.35
+    },
+    {
+     "from": "Ribadull",
+     "to": "Lalín Este",
+     "light": 5.35,
+     "heavy1": 4.5,
+     "heavy2": 5.35
+    },
+    {
+     "from": "Ribadulla",
+     "to": "Alto de Santo Domingo",
+     "light": 5.35,
+     "heavy1": 4.5,
+     "heavy2": 5.35
+    },
+    {
+     "from": "Bandeira",
+     "to": "Silleda",
+     "light": 1.35,
+     "heavy1": 1.1,
+     "heavy2": 1.3
+    },
+    {
+     "from": "Bandeira",
+     "to": "Lalín Oeste",
+     "light": 4.25,
+     "heavy1": 3.55,
+     "heavy2": 4.25
+    },
+    {
+     "from": "Bandeira",
+     "to": "Lalín Centro",
+     "light": 4.25,
+     "heavy1": 3.55,
+     "heavy2": 4.25
+    },
+    {
+     "from": "Bandeira",
+     "to": "Lalín Este",
+     "light": 4.25,
+     "heavy1": 3.55,
+     "heavy2": 4.25
+    },
+    {
+     "from": "Bandeira",
+     "to": "Alto de Santo Domingo",
+     "light": 4.25,
+     "heavy1": 3.55,
+     "heavy2": 4.25
+    },
+    {
+     "from": "Silleda",
+     "to": "Lalín Oeste",
+     "light": 3.0,
+     "heavy1": 2.5,
+     "heavy2": 3.0
+    },
+    {
+     "from": "Silleda",
+     "to": "Lalín Centro",
+     "light": 3.0,
+     "heavy1": 2.5,
+     "heavy2": 3.0
+    },
+    {
+     "from": "Silleda",
+     "to": "Lalín Este",
+     "light": 3.0,
+     "heavy1": 2.5,
+     "heavy2": 3.0
+    },
+    {
+     "from": "Silleda",
+     "to": "Alto de Santo Domingo",
+     "light": 3.0,
+     "heavy1": 2.5,
+     "heavy2": 3.0
+    }
+   ]
+  },
+  {
+   "id": "AP-6",
+   "name": "Villalba-Villacastín-Adanero",
+   "type": "od",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-6,-villalba---adanero-2026.pdf",
+   "prices": [
+    {
+     "from": "VILLALBA",
+     "to": "SAN RAFAEL",
+     "light": 5.65,
+     "heavy1": 17.5,
+     "heavy2": 19.85
+    },
+    {
+     "from": "VILLALBA",
+     "to": "VILLACASTIN",
+     "light": 10.1,
+     "heavy1": 25.45,
+     "heavy2": 28.7
+    },
+    {
+     "from": "VILLALBA",
+     "to": "ADANERO",
+     "light": 15.7,
+     "heavy1": 31.55,
+     "heavy2": 35.4
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "VILLASCASTIN",
+     "light": 3.2,
+     "heavy1": 6.75,
+     "heavy2": 7.35
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "ADANERO",
+     "light": 9.05,
+     "heavy1": 15.8,
+     "heavy2": 17.5
+    },
+    {
+     "from": "VILLACASTIN",
+     "to": "ADANERO",
+     "light": 4.65,
+     "heavy1": 9.15,
+     "heavy2": 10.1
+    }
+   ]
+  },
+  {
+   "id": "AP-61",
+   "name": "AP-6, conexión con Segovia",
+   "type": "od",
+   "tariff": "levels",
+   "levels": [
+    "valle",
+    "normal",
+    "punta"
+   ],
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-61,-conexion-ap-6---segovia-2026.pdf",
+   "prices": [
+    {
+     "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+     "to": "OTERO DE H.",
+     "valle": 0.55,
+     "normal": 0.85,
+     "punta": 1.4,
+     "light": 0.85,
+     "heavy1": 1.45,
+     "heavy2": 1.8
+    },
+    {
+     "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+     "to": "ORTIGOSA",
+     "valle": 0.95,
+     "normal": 1.45,
+     "punta": 2.4,
+     "light": 1.45,
+     "heavy1": 2.55,
+     "heavy2": 3.1
+    },
+    {
+     "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+     "to": "HONTORIA",
+     "valle": 1.95,
+     "normal": 2.95,
+     "punta": 4.8,
+     "light": 2.95,
+     "heavy1": 5.1,
+     "heavy2": 6.2
+    },
+    {
+     "from": "CONEXIÓN AP-6 (EL ESPINAR)",
+     "to": "SEGOVIA",
+     "valle": 1.95,
+     "normal": 2.95,
+     "punta": 4.8,
+     "light": 2.95,
+     "heavy1": 5.1,
+     "heavy2": 6.2
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "OTERO DE HERREROS",
+     "valle": 0.6,
+     "normal": 0.95,
+     "punta": 1.5,
+     "light": 0.95,
+     "heavy1": 1.6,
+     "heavy2": 1.95
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "ORTIGOSA",
+     "valle": 1.0,
+     "normal": 1.55,
+     "punta": 2.5,
+     "light": 1.55,
+     "heavy1": 2.7,
+     "heavy2": 3.25
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "EL HONTORIA",
+     "valle": 2.0,
+     "normal": 3.05,
+     "punta": 4.95,
+     "light": 3.05,
+     "heavy1": 5.25,
+     "heavy2": 6.35
+    },
+    {
+     "from": "SAN RAFAEL",
+     "to": "SEGOVIA",
+     "valle": 2.0,
+     "normal": 3.05,
+     "punta": 4.95,
+     "light": 3.05,
+     "heavy1": 5.25,
+     "heavy2": 6.35
+    },
+    {
+     "from": "OTERO DE HERREROS",
+     "to": "ORTIGOSA",
+     "valle": 0.5,
+     "normal": 0.75,
+     "punta": 1.2,
+     "light": 0.75,
+     "heavy1": 1.25,
+     "heavy2": 1.5
+    },
+    {
+     "from": "OTERO DE HERREROS",
+     "to": "HONTORIA",
+     "valle": 1.45,
+     "normal": 2.2,
+     "punta": 3.6,
+     "light": 2.2,
+     "heavy1": 3.8,
+     "heavy2": 4.65
+    },
+    {
+     "from": "OTERO DE HERREROS",
+     "to": "SEGOVIA",
+     "valle": 1.45,
+     "normal": 2.2,
+     "punta": 3.6,
+     "light": 2.2,
+     "heavy1": 3.8,
+     "heavy2": 4.65
+    },
+    {
+     "from": "ORTIGOSA DEL MONTE",
+     "to": "HONTORIA",
+     "valle": 1.05,
+     "normal": 1.6,
+     "punta": 2.65,
+     "light": 1.6,
+     "heavy1": 2.8,
+     "heavy2": 3.4
+    },
+    {
+     "from": "ORTIGOSA DEL MONTE",
+     "to": "SEGOVIA",
+     "valle": 1.05,
+     "normal": 1.6,
+     "punta": 2.65,
+     "light": 1.6,
+     "heavy1": 2.8,
+     "heavy2": 3.4
+    },
+    {
+     "from": "HONTORIA",
+     "to": "SEGOVIA",
+     "valle": 0.0,
+     "normal": 0.0,
+     "punta": 0.0,
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "VILLALBA",
+     "to": "OTERO DE HERREROS",
+     "valle": 6.2,
+     "normal": 6.5,
+     "punta": 7.05,
+     "light": 6.5,
+     "heavy1": 18.95,
+     "heavy2": 21.65
+    },
+    {
+     "from": "VILLALBA",
+     "to": "ORTIGOSA",
+     "valle": 6.6,
+     "normal": 7.1,
+     "punta": 8.05,
+     "light": 7.1,
+     "heavy1": 20.05,
+     "heavy2": 22.95
+    },
+    {
+     "from": "VILLALBA",
+     "to": "HONTORIA",
+     "valle": 7.6,
+     "normal": 8.6,
+     "punta": 10.45,
+     "light": 8.6,
+     "heavy1": 22.6,
+     "heavy2": 26.05
+    },
+    {
+     "from": "VILLALBA",
+     "to": "SEGOVIA",
+     "valle": 7.6,
+     "normal": 8.6,
+     "punta": 10.45,
+     "light": 8.6,
+     "heavy1": 22.6,
+     "heavy2": 26.05
+    }
+   ]
+  },
+  {
+   "id": "AP-68",
+   "name": "Bilbao-Zaragoza",
+   "type": "od",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-68,-bilbao---zaragoza-2026.pdf",
+   "prices": [
+    {
+     "from": "BILBAO",
+     "to": "ARRIGORRIAGA",
+     "light": 1.05,
+     "heavy1": 1.9,
+     "heavy2": 2.15
+    },
+    {
+     "from": "BILBAO",
+     "to": "ARETA",
+     "light": 2.55,
+     "heavy1": 4.65,
+     "heavy2": 5.25
+    },
+    {
+     "from": "BILBAO",
+     "to": "LLODIO",
+     "light": 2.55,
+     "heavy1": 4.65,
+     "heavy2": 5.25
+    },
+    {
+     "from": "BILBAO",
+     "to": "ALTUBE",
+     "light": 6.85,
+     "heavy1": 12.6,
+     "heavy2": 14.25
+    },
+    {
+     "from": "BILBAO",
+     "to": "SUBIJANA",
+     "light": 9.9,
+     "heavy1": 18.2,
+     "heavy2": 20.6
+    },
+    {
+     "from": "BILBAO",
+     "to": "AUTOP.BURGOS",
+     "light": 12.4,
+     "heavy1": 22.75,
+     "heavy2": 25.8
+    },
+    {
+     "from": "BILBAO",
+     "to": "ZAMBRANA",
+     "light": 13.45,
+     "heavy1": 24.7,
+     "heavy2": 27.95
+    },
+    {
+     "from": "BILBAO",
+     "to": "HARO",
+     "light": 14.95,
+     "heavy1": 27.5,
+     "heavy2": 31.2
+    },
+    {
+     "from": "BILBAO",
+     "to": "CENICERO",
+     "light": 17.55,
+     "heavy1": 32.3,
+     "heavy2": 36.75
+    },
+    {
+     "from": "BILBAO",
+     "to": "FUENMAYOR",
+     "light": 18.5,
+     "heavy1": 34.0,
+     "heavy2": 38.75
+    },
+    {
+     "from": "BILBAO",
+     "to": "LOGROÑO",
+     "light": 19.6,
+     "heavy1": 36.15,
+     "heavy2": 41.2
+    },
+    {
+     "from": "BILBAO",
+     "to": "RECAJO",
+     "light": 20.7,
+     "heavy1": 38.1,
+     "heavy2": 43.45
+    },
+    {
+     "from": "BILBAO",
+     "to": "AGONCILLO",
+     "light": 21.2,
+     "heavy1": 39.1,
+     "heavy2": 44.6
+    },
+    {
+     "from": "BILBAO",
+     "to": "LODOSA",
+     "light": 23.5,
+     "heavy1": 43.35,
+     "heavy2": 49.5
+    },
+    {
+     "from": "BILBAO",
+     "to": "CALAHORRA",
+     "light": 24.8,
+     "heavy1": 45.75,
+     "heavy2": 52.25
+    },
+    {
+     "from": "BILBAO",
+     "to": "ALFARO",
+     "light": 27.9,
+     "heavy1": 51.5,
+     "heavy2": 58.9
+    },
+    {
+     "from": "BILBAO",
+     "to": "AUTOP.NAVARRA",
+     "light": 28.55,
+     "heavy1": 52.75,
+     "heavy2": 60.4
+    },
+    {
+     "from": "BILBAO",
+     "to": "TUDELA",
+     "light": 30.0,
+     "heavy1": 55.2,
+     "heavy2": 63.35
+    },
+    {
+     "from": "BILBAO",
+     "to": "GALLUR",
+     "light": 33.95,
+     "heavy1": 62.15,
+     "heavy2": 71.7
+    },
+    {
+     "from": "BILBAO",
+     "to": "ALAGÓN pk 272",
+     "light": 37.2,
+     "heavy1": 67.9,
+     "heavy2": 78.55
+    },
+    {
+     "from": "BILBAO",
+     "to": "ZARAGOZA",
+     "light": 39.9,
+     "heavy1": 72.55,
+     "heavy2": 84.15
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "ARETA",
+     "light": 2.55,
+     "heavy1": 4.65,
+     "heavy2": 5.25
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "LLODIO",
+     "light": 2.55,
+     "heavy1": 4.65,
+     "heavy2": 5.25
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "ALTUBE",
+     "light": 6.85,
+     "heavy1": 12.6,
+     "heavy2": 14.25
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "SUBIJANA",
+     "light": 9.9,
+     "heavy1": 18.2,
+     "heavy2": 20.6
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "AUTOP.BURGOS",
+     "light": 12.4,
+     "heavy1": 22.75,
+     "heavy2": 25.8
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "ZAMBRANA",
+     "light": 13.45,
+     "heavy1": 24.7,
+     "heavy2": 27.95
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "HARO",
+     "light": 14.95,
+     "heavy1": 27.5,
+     "heavy2": 31.2
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "CENICERO",
+     "light": 17.55,
+     "heavy1": 32.3,
+     "heavy2": 36.75
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "FUENMAYOR",
+     "light": 18.5,
+     "heavy1": 34.0,
+     "heavy2": 38.75
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "LOGROÑO",
+     "light": 19.6,
+     "heavy1": 36.15,
+     "heavy2": 41.2
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "RECAJO",
+     "light": 20.7,
+     "heavy1": 38.1,
+     "heavy2": 43.45
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "AGONCILLO",
+     "light": 21.2,
+     "heavy1": 39.1,
+     "heavy2": 44.6
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "LODOSA",
+     "light": 23.5,
+     "heavy1": 43.35,
+     "heavy2": 49.5
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "CALAHORRA",
+     "light": 24.8,
+     "heavy1": 45.75,
+     "heavy2": 52.25
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "ALFARO",
+     "light": 27.9,
+     "heavy1": 51.5,
+     "heavy2": 58.9
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "AUTOP.NAVARRA",
+     "light": 28.55,
+     "heavy1": 52.75,
+     "heavy2": 60.4
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "TUDELA",
+     "light": 30.0,
+     "heavy1": 55.2,
+     "heavy2": 63.35
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "GALLUR",
+     "light": 33.95,
+     "heavy1": 62.15,
+     "heavy2": 71.7
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "ALAGÓN pk 272",
+     "light": 37.2,
+     "heavy1": 67.9,
+     "heavy2": 78.55
+    },
+    {
+     "from": "ARRIGORRIAGA",
+     "to": "ZARAGOZA",
+     "light": 39.9,
+     "heavy1": 72.55,
+     "heavy2": 84.15
+    },
+    {
+     "from": "LLODIO",
+     "to": "ALTUBE",
+     "light": 4.55,
+     "heavy1": 8.3,
+     "heavy2": 9.4
+    },
+    {
+     "from": "LLODIO",
+     "to": "SUBIJANA",
+     "light": 7.6,
+     "heavy1": 13.95,
+     "heavy2": 15.75
+    },
+    {
+     "from": "LLODIO",
+     "to": "AUTOP.BURGOS",
+     "light": 10.1,
+     "heavy1": 18.5,
+     "heavy2": 20.95
+    },
+    {
+     "from": "LLODIO",
+     "to": "ZAMBRANA",
+     "light": 11.15,
+     "heavy1": 20.4,
+     "heavy2": 23.1
+    },
+    {
+     "from": "LLODIO",
+     "to": "HARO",
+     "light": 12.65,
+     "heavy1": 23.25,
+     "heavy2": 26.4
+    },
+    {
+     "from": "LLODIO",
+     "to": "CENICERO",
+     "light": 15.25,
+     "heavy1": 28.05,
+     "heavy2": 31.9
+    },
+    {
+     "from": "LLODIO",
+     "to": "FUENMAYOR",
+     "light": 16.15,
+     "heavy1": 29.75,
+     "heavy2": 33.9
+    },
+    {
+     "from": "LLODIO",
+     "to": "LOGROÑO",
+     "light": 17.3,
+     "heavy1": 31.85,
+     "heavy2": 36.35
+    },
+    {
+     "from": "LLODIO",
+     "to": "RECAJO",
+     "light": 18.35,
+     "heavy1": 33.8,
+     "heavy2": 38.6
+    },
+    {
+     "from": "LLODIO",
+     "to": "AGONCILLO",
+     "light": 18.85,
+     "heavy1": 34.8,
+     "heavy2": 39.75
+    },
+    {
+     "from": "LLODIO",
+     "to": "LODOSA",
+     "light": 21.2,
+     "heavy1": 39.1,
+     "heavy2": 44.7
+    },
+    {
+     "from": "LLODIO",
+     "to": "CALAHORRA",
+     "light": 22.45,
+     "heavy1": 41.45,
+     "heavy2": 47.4
+    },
+    {
+     "from": "LLODIO",
+     "to": "ALFARO",
+     "light": 25.55,
+     "heavy1": 47.2,
+     "heavy2": 54.05
+    },
+    {
+     "from": "LLODIO",
+     "to": "AUTOP.NAVARRA",
+     "light": 26.25,
+     "heavy1": 48.5,
+     "heavy2": 55.55
+    },
+    {
+     "from": "LLODIO",
+     "to": "TUDELA",
+     "light": 27.65,
+     "heavy1": 50.95,
+     "heavy2": 58.5
+    },
+    {
+     "from": "LLODIO",
+     "to": "GALLUR",
+     "light": 31.6,
+     "heavy1": 57.9,
+     "heavy2": 66.85
+    },
+    {
+     "from": "LLODIO",
+     "to": "ALAGÓN pk 272",
+     "light": 34.9,
+     "heavy1": 63.6,
+     "heavy2": 73.7
+    },
+    {
+     "from": "LLODIO",
+     "to": "ZARAGOZA",
+     "light": 37.55,
+     "heavy1": 68.3,
+     "heavy2": 79.3
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "ALTUBE",
+     "light": 1.65,
+     "heavy1": 3.0,
+     "heavy2": 3.4
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "SUBIJANA",
+     "light": 4.7,
+     "heavy1": 8.6,
+     "heavy2": 9.75
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "AUTOP.BURGOS",
+     "light": 7.2,
+     "heavy1": 13.2,
+     "heavy2": 14.9
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "ZAMBRANA",
+     "light": 8.25,
+     "heavy1": 15.1,
+     "heavy2": 17.1
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "HARO",
+     "light": 9.75,
+     "heavy1": 17.9,
+     "heavy2": 20.35
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "CENICERO",
+     "light": 12.35,
+     "heavy1": 22.7,
+     "heavy2": 25.9
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "FUENMAYOR",
+     "light": 13.25,
+     "heavy1": 24.45,
+     "heavy2": 27.9
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "LOGROÑO",
+     "light": 14.4,
+     "heavy1": 26.55,
+     "heavy2": 30.3
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "RECAJO",
+     "light": 15.45,
+     "heavy1": 28.5,
+     "heavy2": 32.6
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "AGONCILLO",
+     "light": 16.0,
+     "heavy1": 29.5,
+     "heavy2": 33.75
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "LODOSA",
+     "light": 18.3,
+     "heavy1": 33.75,
+     "heavy2": 38.65
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "CALAHORRA",
+     "light": 19.55,
+     "heavy1": 36.15,
+     "heavy2": 41.4
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "ALFARO",
+     "light": 22.65,
+     "heavy1": 41.9,
+     "heavy2": 48.05
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "AUTOP.NAVARRA",
+     "light": 23.35,
+     "heavy1": 43.2,
+     "heavy2": 49.55
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "TUDELA",
+     "light": 24.75,
+     "heavy1": 45.65,
+     "heavy2": 52.5
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "GALLUR",
+     "light": 28.75,
+     "heavy1": 52.6,
+     "heavy2": 60.85
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "ALAGÓN pk 272",
+     "light": 32.0,
+     "heavy1": 58.3,
+     "heavy2": 67.7
+    },
+    {
+     "from": "ZIORRAGA",
+     "to": "ZARAGOZA",
+     "light": 34.65,
+     "heavy1": 62.95,
+     "heavy2": 73.3
+    },
+    {
+     "from": "ALTUBE",
+     "to": "SUBIJANA",
+     "light": 3.5,
+     "heavy1": 6.45,
+     "heavy2": 7.3
+    },
+    {
+     "from": "ALTUBE",
+     "to": "AUTOP.BURGOS",
+     "light": 6.0,
+     "heavy1": 11.0,
+     "heavy2": 12.45
+    },
+    {
+     "from": "ALTUBE",
+     "to": "ZAMBRANA",
+     "light": 7.05,
+     "heavy1": 12.9,
+     "heavy2": 14.65
+    },
+    {
+     "from": "ALTUBE",
+     "to": "HARO",
+     "light": 8.55,
+     "heavy1": 15.75,
+     "heavy2": 17.9
+    },
+    {
+     "from": "ALTUBE",
+     "to": "CENICERO",
+     "light": 11.15,
+     "heavy1": 20.55,
+     "heavy2": 23.45
+    },
+    {
+     "from": "ALTUBE",
+     "to": "FUENMAYOR",
+     "light": 12.05,
+     "heavy1": 22.25,
+     "heavy2": 25.4
+    },
+    {
+     "from": "ALTUBE",
+     "to": "LOGROÑO",
+     "light": 13.2,
+     "heavy1": 24.35,
+     "heavy2": 27.85
+    },
+    {
+     "from": "ALTUBE",
+     "to": "RECAJO",
+     "light": 14.25,
+     "heavy1": 26.35,
+     "heavy2": 30.15
+    },
+    {
+     "from": "ALTUBE",
+     "to": "AGONCILLO",
+     "light": 14.8,
+     "heavy1": 27.3,
+     "heavy2": 31.25
+    },
+    {
+     "from": "ALTUBE",
+     "to": "LODOSA",
+     "light": 17.1,
+     "heavy1": 31.6,
+     "heavy2": 36.2
+    },
+    {
+     "from": "ALTUBE",
+     "to": "CALAHORRA",
+     "light": 18.35,
+     "heavy1": 33.95,
+     "heavy2": 38.95
+    },
+    {
+     "from": "ALTUBE",
+     "to": "ALFARO",
+     "light": 21.45,
+     "heavy1": 39.7,
+     "heavy2": 45.6
+    },
+    {
+     "from": "ALTUBE",
+     "to": "AUTOP.NAVARRA",
+     "light": 22.15,
+     "heavy1": 41.0,
+     "heavy2": 47.05
+    },
+    {
+     "from": "ALTUBE",
+     "to": "TUDELA",
+     "light": 23.55,
+     "heavy1": 43.45,
+     "heavy2": 50.05
+    },
+    {
+     "from": "ALTUBE",
+     "to": "GALLUR",
+     "light": 27.55,
+     "heavy1": 50.4,
+     "heavy2": 58.35
+    },
+    {
+     "from": "ALTUBE",
+     "to": "ALAGÓN pk 272",
+     "light": 30.8,
+     "heavy1": 56.1,
+     "heavy2": 65.25
+    },
+    {
+     "from": "ALTUBE",
+     "to": "ZARAGOZA",
+     "light": 33.45,
+     "heavy1": 60.8,
+     "heavy2": 70.85
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "AUTOP.BURGOS",
+     "light": 2.65,
+     "heavy1": 4.85,
+     "heavy2": 5.5
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "ZAMBRANA",
+     "light": 3.7,
+     "heavy1": 6.8,
+     "heavy2": 7.7
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "HARO",
+     "light": 5.2,
+     "heavy1": 9.6,
+     "heavy2": 10.95
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "CENICERO",
+     "light": 7.8,
+     "heavy1": 14.4,
+     "heavy2": 16.5
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "FUENMAYOR",
+     "light": 8.7,
+     "heavy1": 16.1,
+     "heavy2": 18.45
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "LOGROÑO",
+     "light": 9.85,
+     "heavy1": 18.25,
+     "heavy2": 20.9
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "RECAJO",
+     "light": 10.9,
+     "heavy1": 20.2,
+     "heavy2": 23.2
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "AGONCILLO",
+     "light": 11.45,
+     "heavy1": 21.2,
+     "heavy2": 24.3
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "LODOSA",
+     "light": 13.75,
+     "heavy1": 25.45,
+     "heavy2": 29.25
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "CALAHORRA",
+     "light": 15.05,
+     "heavy1": 27.85,
+     "heavy2": 32.0
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "ALFARO",
+     "light": 18.15,
+     "heavy1": 33.6,
+     "heavy2": 38.65
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "AUTOP.NAVARRA",
+     "light": 18.8,
+     "heavy1": 34.85,
+     "heavy2": 40.1
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "TUDELA",
+     "light": 20.25,
+     "heavy1": 37.3,
+     "heavy2": 43.1
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "GALLUR",
+     "light": 24.2,
+     "heavy1": 44.25,
+     "heavy2": 51.4
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "ALAGÓN pk 272",
+     "light": 27.45,
+     "heavy1": 50.0,
+     "heavy2": 58.3
+    },
+    {
+     "from": "SUBIJANA",
+     "to": "ZARAGOZA",
+     "light": 30.1,
+     "heavy1": 54.65,
+     "heavy2": 63.9
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "ZAMBRANA",
+     "light": 0.9,
+     "heavy1": 1.65,
+     "heavy2": 1.9
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "HARO",
+     "light": 2.4,
+     "heavy1": 4.5,
+     "heavy2": 5.15
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "CENICERO",
+     "light": 5.0,
+     "heavy1": 9.3,
+     "heavy2": 10.7
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "FUENMAYOR",
+     "light": 5.95,
+     "heavy1": 11.0,
+     "heavy2": 12.65
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "LOGROÑO",
+     "light": 7.05,
+     "heavy1": 13.1,
+     "heavy2": 15.1
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "RECAJO",
+     "light": 8.15,
+     "heavy1": 15.1,
+     "heavy2": 17.4
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "AGONCILLO",
+     "light": 8.65,
+     "heavy1": 16.05,
+     "heavy2": 18.5
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "LODOSA",
+     "light": 10.95,
+     "heavy1": 20.35,
+     "heavy2": 23.45
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "CALAHORRA",
+     "light": 12.25,
+     "heavy1": 22.7,
+     "heavy2": 26.2
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "ALFARO",
+     "light": 15.35,
+     "heavy1": 28.45,
+     "heavy2": 32.85
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "AUTOP.NAVARRA",
+     "light": 16.0,
+     "heavy1": 29.75,
+     "heavy2": 34.3
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "TUDELA",
+     "light": 17.45,
+     "heavy1": 32.2,
+     "heavy2": 37.3
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "GALLUR",
+     "light": 21.4,
+     "heavy1": 39.15,
+     "heavy2": 45.6
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "ALAGÓN pk 272",
+     "light": 24.65,
+     "heavy1": 44.85,
+     "heavy2": 52.5
+    },
+    {
+     "from": "AUTOP.BURGOS",
+     "to": "ZARAGOZA",
+     "light": 27.35,
+     "heavy1": 49.55,
+     "heavy2": 58.1
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "HARO",
+     "light": 1.9,
+     "heavy1": 3.55,
+     "heavy2": 4.1
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "CENICERO",
+     "light": 4.5,
+     "heavy1": 8.35,
+     "heavy2": 9.65
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "FUENMAYOR",
+     "light": 5.4,
+     "heavy1": 10.05,
+     "heavy2": 11.6
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "LOGROÑO",
+     "light": 6.55,
+     "heavy1": 12.15,
+     "heavy2": 14.05
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "RECAJO",
+     "light": 7.6,
+     "heavy1": 14.15,
+     "heavy2": 16.35
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "AGONCILLO",
+     "light": 8.15,
+     "heavy1": 15.1,
+     "heavy2": 17.45
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "LODOSA",
+     "light": 10.45,
+     "heavy1": 19.4,
+     "heavy2": 22.4
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "CALAHORRA",
+     "light": 11.7,
+     "heavy1": 21.75,
+     "heavy2": 25.15
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "ALFARO",
+     "light": 14.8,
+     "heavy1": 27.5,
+     "heavy2": 31.8
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "AUTOP.NAVARRA",
+     "light": 15.5,
+     "heavy1": 28.8,
+     "heavy2": 33.25
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "TUDELA",
+     "light": 16.95,
+     "heavy1": 31.25,
+     "heavy2": 36.25
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "GALLUR",
+     "light": 20.9,
+     "heavy1": 38.2,
+     "heavy2": 44.55
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "ALAGÓN pk 272",
+     "light": 24.15,
+     "heavy1": 43.95,
+     "heavy2": 51.45
+    },
+    {
+     "from": "ZAMBRANA",
+     "to": "ZARAGOZA",
+     "light": 26.8,
+     "heavy1": 48.6,
+     "heavy2": 57.05
+    },
+    {
+     "from": "HARO",
+     "to": "CENICERO",
+     "light": 2.75,
+     "heavy1": 5.15,
+     "heavy2": 5.95
+    },
+    {
+     "from": "HARO",
+     "to": "FUENMAYOR",
+     "light": 3.7,
+     "heavy1": 6.85,
+     "heavy2": 7.9
+    },
+    {
+     "from": "HARO",
+     "to": "LOGROÑO",
+     "light": 4.85,
+     "heavy1": 8.95,
+     "heavy2": 10.35
+    },
+    {
+     "from": "HARO",
+     "to": "RECAJO",
+     "light": 5.9,
+     "heavy1": 10.95,
+     "heavy2": 12.65
+    },
+    {
+     "from": "HARO",
+     "to": "AGONCILLO",
+     "light": 6.4,
+     "heavy1": 11.9,
+     "heavy2": 13.75
+    },
+    {
+     "from": "HARO",
+     "to": "LODOSA",
+     "light": 8.7,
+     "heavy1": 16.2,
+     "heavy2": 18.7
+    },
+    {
+     "from": "HARO",
+     "to": "CALAHORRA",
+     "light": 10.0,
+     "heavy1": 18.55,
+     "heavy2": 21.45
+    },
+    {
+     "from": "HARO",
+     "to": "ALFARO",
+     "light": 13.1,
+     "heavy1": 24.3,
+     "heavy2": 28.1
+    },
+    {
+     "from": "HARO",
+     "to": "AUTOP.NAVARRA",
+     "light": 13.8,
+     "heavy1": 25.6,
+     "heavy2": 29.55
+    },
+    {
+     "from": "HARO",
+     "to": "TUDELA",
+     "light": 15.2,
+     "heavy1": 28.05,
+     "heavy2": 32.55
+    },
+    {
+     "from": "HARO",
+     "to": "GALLUR",
+     "light": 19.15,
+     "heavy1": 35.0,
+     "heavy2": 40.85
+    },
+    {
+     "from": "HARO",
+     "to": "ALAGÓN pk 272",
+     "light": 22.45,
+     "heavy1": 40.7,
+     "heavy2": 47.75
+    },
+    {
+     "from": "HARO",
+     "to": "ZARAGOZA",
+     "light": 25.1,
+     "heavy1": 45.4,
+     "heavy2": 53.35
+    },
+    {
+     "from": "CENICERO",
+     "to": "FUENMAYOR",
+     "light": 1.15,
+     "heavy1": 2.1,
+     "heavy2": 2.45
+    },
+    {
+     "from": "CENICERO",
+     "to": "LOGROÑO",
+     "light": 2.25,
+     "heavy1": 4.2,
+     "heavy2": 4.85
+    },
+    {
+     "from": "CENICERO",
+     "to": "RECAJO",
+     "light": 3.35,
+     "heavy1": 6.2,
+     "heavy2": 7.15
+    },
+    {
+     "from": "CENICERO",
+     "to": "AGONCILLO",
+     "light": 3.9,
+     "heavy1": 7.2,
+     "heavy2": 8.35
+    },
+    {
+     "from": "CENICERO",
+     "to": "LODOSA",
+     "light": 6.15,
+     "heavy1": 11.45,
+     "heavy2": 13.2
+    },
+    {
+     "from": "CENICERO",
+     "to": "CALAHORRA",
+     "light": 7.45,
+     "heavy1": 13.8,
+     "heavy2": 15.95
+    },
+    {
+     "from": "CENICERO",
+     "to": "ALFARO",
+     "light": 10.55,
+     "heavy1": 19.55,
+     "heavy2": 22.6
+    },
+    {
+     "from": "CENICERO",
+     "to": "AUTOP.NAVARRA",
+     "light": 11.25,
+     "heavy1": 20.85,
+     "heavy2": 24.1
+    },
+    {
+     "from": "CENICERO",
+     "to": "TUDELA",
+     "light": 12.65,
+     "heavy1": 23.3,
+     "heavy2": 27.05
+    },
+    {
+     "from": "CENICERO",
+     "to": "GALLUR",
+     "light": 16.6,
+     "heavy1": 30.25,
+     "heavy2": 35.4
+    },
+    {
+     "from": "CENICERO",
+     "to": "ALAGÓN pk 272",
+     "light": 19.85,
+     "heavy1": 36.0,
+     "heavy2": 42.25
+    },
+    {
+     "from": "CENICERO",
+     "to": "ZARAGOZA",
+     "light": 22.55,
+     "heavy1": 40.65,
+     "heavy2": 47.85
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "LOGROÑO",
+     "light": 1.35,
+     "heavy1": 2.5,
+     "heavy2": 2.85
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "RECAJO",
+     "light": 2.4,
+     "heavy1": 4.45,
+     "heavy2": 5.15
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "AGONCILLO",
+     "light": 2.9,
+     "heavy1": 5.45,
+     "heavy2": 6.25
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "LODOSA",
+     "light": 5.2,
+     "heavy1": 9.7,
+     "heavy2": 11.2
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "CALAHORRA",
+     "light": 6.5,
+     "heavy1": 12.05,
+     "heavy2": 13.95
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "ALFARO",
+     "light": 9.6,
+     "heavy1": 17.85,
+     "heavy2": 20.6
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "AUTOP.NAVARRA",
+     "light": 10.3,
+     "heavy1": 19.1,
+     "heavy2": 22.05
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "TUDELA",
+     "light": 11.7,
+     "heavy1": 21.55,
+     "heavy2": 25.05
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "GALLUR",
+     "light": 15.65,
+     "heavy1": 28.5,
+     "heavy2": 33.35
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "ALAGÓN pk 272",
+     "light": 18.95,
+     "heavy1": 34.25,
+     "heavy2": 40.25
+    },
+    {
+     "from": "FUENMAYOR",
+     "to": "ZARAGOZA",
+     "light": 21.6,
+     "heavy1": 38.9,
+     "heavy2": 45.85
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "RECAJO",
+     "light": 1.5,
+     "heavy1": 2.8,
+     "heavy2": 3.25
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "AGONCILLO",
+     "light": 2.05,
+     "heavy1": 3.8,
+     "heavy2": 4.4
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "LODOSA",
+     "light": 4.35,
+     "heavy1": 8.1,
+     "heavy2": 9.35
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "CALAHORRA",
+     "light": 5.65,
+     "heavy1": 10.45,
+     "heavy2": 12.05
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "ALFARO",
+     "light": 8.75,
+     "heavy1": 16.2,
+     "heavy2": 18.7
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "AUTOP.NAVARRA",
+     "light": 9.4,
+     "heavy1": 17.5,
+     "heavy2": 20.2
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "TUDELA",
+     "light": 10.85,
+     "heavy1": 19.95,
+     "heavy2": 23.15
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "GALLUR",
+     "light": 14.8,
+     "heavy1": 26.9,
+     "heavy2": 31.5
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "ALAGÓN pk 272",
+     "light": 18.05,
+     "heavy1": 32.6,
+     "heavy2": 38.35
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "ZARAGOZA",
+     "light": 20.7,
+     "heavy1": 37.25,
+     "heavy2": 43.95
+    },
+    {
+     "from": "RECAJO",
+     "to": "AGONCILLO",
+     "light": 0.7,
+     "heavy1": 1.3,
+     "heavy2": 1.5
+    },
+    {
+     "from": "RECAJO",
+     "to": "LODOSA",
+     "light": 3.0,
+     "heavy1": 5.55,
+     "heavy2": 6.4
+    },
+    {
+     "from": "RECAJO",
+     "to": "CALAHORRA",
+     "light": 4.25,
+     "heavy1": 7.95,
+     "heavy2": 9.15
+    },
+    {
+     "from": "RECAJO",
+     "to": "ALFARO",
+     "light": 7.35,
+     "heavy1": 13.7,
+     "heavy2": 15.8
+    },
+    {
+     "from": "RECAJO",
+     "to": "AUTOP.NAVARRA",
+     "light": 8.05,
+     "heavy1": 14.95,
+     "heavy2": 17.3
+    },
+    {
+     "from": "RECAJO",
+     "to": "TUDELA",
+     "light": 9.45,
+     "heavy1": 17.4,
+     "heavy2": 20.25
+    },
+    {
+     "from": "RECAJO",
+     "to": "GALLUR",
+     "light": 13.45,
+     "heavy1": 24.35,
+     "heavy2": 28.6
+    },
+    {
+     "from": "RECAJO",
+     "to": "ALAGÓN pk 272",
+     "light": 16.7,
+     "heavy1": 30.1,
+     "heavy2": 35.45
+    },
+    {
+     "from": "RECAJO",
+     "to": "ZARAGOZA",
+     "light": 19.35,
+     "heavy1": 34.75,
+     "heavy2": 41.05
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "LODOSA",
+     "light": 2.45,
+     "heavy1": 4.55,
+     "heavy2": 5.3
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "CALAHORRA",
+     "light": 3.75,
+     "heavy1": 6.95,
+     "heavy2": 8.0
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "ALFARO",
+     "light": 6.85,
+     "heavy1": 12.7,
+     "heavy2": 14.65
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "AUTOP.NAVARRA",
+     "light": 7.55,
+     "heavy1": 14.0,
+     "heavy2": 16.15
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "TUDELA",
+     "light": 8.95,
+     "heavy1": 16.45,
+     "heavy2": 19.1
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "GALLUR",
+     "light": 12.9,
+     "heavy1": 23.4,
+     "heavy2": 27.45
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "ALAGÓN pk 272",
+     "light": 16.15,
+     "heavy1": 29.1,
+     "heavy2": 34.3
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "ZARAGOZA",
+     "light": 18.85,
+     "heavy1": 33.75,
+     "heavy2": 39.9
+    },
+    {
+     "from": "LODOSA",
+     "to": "CALAHORRA",
+     "light": 1.35,
+     "heavy1": 2.5,
+     "heavy2": 2.9
+    },
+    {
+     "from": "LODOSA",
+     "to": "ALFARO",
+     "light": 4.45,
+     "heavy1": 8.25,
+     "heavy2": 9.55
+    },
+    {
+     "from": "LODOSA",
+     "to": "AUTOP.NAVARRA",
+     "light": 5.15,
+     "heavy1": 9.55,
+     "heavy2": 11.0
+    },
+    {
+     "from": "LODOSA",
+     "to": "TUDELA",
+     "light": 6.55,
+     "heavy1": 12.0,
+     "heavy2": 14.0
+    },
+    {
+     "from": "LODOSA",
+     "to": "GALLUR",
+     "light": 10.5,
+     "heavy1": 18.95,
+     "heavy2": 22.3
+    },
+    {
+     "from": "LODOSA",
+     "to": "ALAGÓN pk 272",
+     "light": 13.8,
+     "heavy1": 24.65,
+     "heavy2": 29.2
+    },
+    {
+     "from": "LODOSA",
+     "to": "ZARAGOZA",
+     "light": 16.45,
+     "heavy1": 29.35,
+     "heavy2": 34.8
+    },
+    {
+     "from": "CALAHORRA",
+     "to": "ALFARO",
+     "light": 3.25,
+     "heavy1": 6.05,
+     "heavy2": 7.0
+    },
+    {
+     "from": "CALAHORRA",
+     "to": "AUTOP.NAVARRA",
+     "light": 3.95,
+     "heavy1": 7.35,
+     "heavy2": 8.5
+    },
+    {
+     "from": "CALAHORRA",
+     "to": "TUDELA",
+     "light": 5.35,
+     "heavy1": 9.8,
+     "heavy2": 11.45
+    },
+    {
+     "from": "CALAHORRA",
+     "to": "GALLUR",
+     "light": 9.35,
+     "heavy1": 16.75,
+     "heavy2": 19.8
+    },
+    {
+     "from": "CALAHORRA",
+     "to": "ALAGÓN pk 272",
+     "light": 12.6,
+     "heavy1": 22.45,
+     "heavy2": 26.65
+    },
+    {
+     "from": "CALAHORRA",
+     "to": "ZARAGOZA",
+     "light": 15.25,
+     "heavy1": 27.15,
+     "heavy2": 32.25
+    },
+    {
+     "from": "ALFARO",
+     "to": "AUTOP.NAVARRA",
+     "light": 1.0,
+     "heavy1": 1.85,
+     "heavy2": 2.1
+    },
+    {
+     "from": "ALFARO",
+     "to": "TUDELA",
+     "light": 2.4,
+     "heavy1": 4.3,
+     "heavy2": 5.1
+    },
+    {
+     "from": "ALFARO",
+     "to": "GALLUR",
+     "light": 6.35,
+     "heavy1": 11.25,
+     "heavy2": 13.45
+    },
+    {
+     "from": "ALFARO",
+     "to": "ALAGÓN pk 272",
+     "light": 9.65,
+     "heavy1": 16.95,
+     "heavy2": 20.3
+    },
+    {
+     "from": "ALFARO",
+     "to": "ZARAGOZA",
+     "light": 12.3,
+     "heavy1": 21.65,
+     "heavy2": 25.9
+    },
+    {
+     "from": "AUTOP.NAVARRA",
+     "to": "TUDELA",
+     "light": 1.7,
+     "heavy1": 3.0,
+     "heavy2": 3.6
+    },
+    {
+     "from": "AUTOP.NAVARRA",
+     "to": "GALLUR",
+     "light": 5.7,
+     "heavy1": 9.95,
+     "heavy2": 11.95
+    },
+    {
+     "from": "AUTOP.NAVARRA",
+     "to": "ALAGÓN pk 272",
+     "light": 8.95,
+     "heavy1": 15.7,
+     "heavy2": 18.8
+    },
+    {
+     "from": "AUTOP.NAVARRA",
+     "to": "ZARAGOZA",
+     "light": 11.6,
+     "heavy1": 20.35,
+     "heavy2": 24.4
+    },
+    {
+     "from": "TUDELA",
+     "to": "GALLUR",
+     "light": 4.2,
+     "heavy1": 7.4,
+     "heavy2": 8.9
+    },
+    {
+     "from": "TUDELA",
+     "to": "ALAGÓN pk 272",
+     "light": 7.5,
+     "heavy1": 13.1,
+     "heavy2": 15.75
+    },
+    {
+     "from": "TUDELA",
+     "to": "ZARAGOZA",
+     "light": 10.15,
+     "heavy1": 17.8,
+     "heavy2": 21.35
+    },
+    {
+     "from": "GALLUR",
+     "to": "ALAGÓN pk 272",
+     "light": 3.5,
+     "heavy1": 6.1,
+     "heavy2": 7.35
+    },
+    {
+     "from": "GALLUR",
+     "to": "ZARAGOZA",
+     "light": 6.15,
+     "heavy1": 10.75,
+     "heavy2": 12.95
+    },
+    {
+     "from": "ALAGÓN pk 272",
+     "to": "ZARAGOZA",
+     "light": 3.35,
+     "heavy1": 5.9,
+     "heavy2": 7.05
+    },
+    {
+     "from": "ALAGÓN pk 275",
+     "to": "ZARAGOZA",
+     "light": 2.85,
+     "heavy1": 5.05,
+     "heavy2": 6.05
+    },
+    {
+     "from": "BILBAO-A.SERV.",
+     "to": "ARRIG.-BILBAO",
+     "light": 2.35,
+     "heavy1": 2.35,
+     "heavy2": 2.35
+    },
+    {
+     "from": "HARO",
+     "to": "CENICERO",
+     "light": 1.38,
+     "heavy1": 2.57,
+     "heavy2": 2.97
+    },
+    {
+     "from": "HARO",
+     "to": "FUENMAYOR-NAVARRETE",
+     "light": 1.4,
+     "heavy1": 2.6,
+     "heavy2": 3.0
+    },
+    {
+     "from": "HARO",
+     "to": "LOGROÑO",
+     "light": 1.47,
+     "heavy1": 2.73,
+     "heavy2": 3.15
+    },
+    {
+     "from": "HARO",
+     "to": "RECAJO",
+     "light": 1.39,
+     "heavy1": 2.58,
+     "heavy2": 2.98
+    },
+    {
+     "from": "HARO",
+     "to": "AGONCILLO",
+     "light": 1.38,
+     "heavy1": 2.57,
+     "heavy2": 2.96
+    },
+    {
+     "from": "HARO",
+     "to": "LODOSA",
+     "light": 2.53,
+     "heavy1": 4.7,
+     "heavy2": 5.43
+    },
+    {
+     "from": "HARO",
+     "to": "CALAHORRA",
+     "light": 3.17,
+     "heavy1": 5.89,
+     "heavy2": 6.8
+    },
+    {
+     "from": "HARO",
+     "to": "ALFARO",
+     "light": 4.72,
+     "heavy1": 8.77,
+     "heavy2": 10.12
+    },
+    {
+     "from": "CENICERO",
+     "to": "FUENMAYOR-NAVARRETE",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "CENICERO",
+     "to": "LOGROÑO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "CENICERO",
+     "to": "RECAJO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "CENICERO",
+     "to": "AGONCILLO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "CENICERO",
+     "to": "LODOSA",
+     "light": 1.25,
+     "heavy1": 2.33,
+     "heavy2": 2.69
+    },
+    {
+     "from": "CENICERO",
+     "to": "CALAHORRA",
+     "light": 1.89,
+     "heavy1": 3.52,
+     "heavy2": 4.06
+    },
+    {
+     "from": "CENICERO",
+     "to": "ALFARO",
+     "light": 3.44,
+     "heavy1": 6.39,
+     "heavy2": 7.38
+    },
+    {
+     "from": "FUENMAYOR-NAVARRETE",
+     "to": "LOGROÑO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "FUENMAYOR-NAVARRETE",
+     "to": "RECAJO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "FUENMAYOR-NAVARRETE",
+     "to": "AGONCILLO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "FUENMAYOR-NAVARRETE",
+     "to": "LODOSA",
+     "light": 1.25,
+     "heavy1": 2.32,
+     "heavy2": 2.68
+    },
+    {
+     "from": "FUENMAYOR-NAVARRETE",
+     "to": "CALAHORRA",
+     "light": 1.89,
+     "heavy1": 3.51,
+     "heavy2": 4.05
+    },
+    {
+     "from": "FUENMAYOR-NAVARRETE",
+     "to": "ALFARO",
+     "light": 3.44,
+     "heavy1": 6.38,
+     "heavy2": 7.37
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "RECAJO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "AGONCILLO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "LODOSA",
+     "light": 1.31,
+     "heavy1": 2.44,
+     "heavy2": 2.81
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "CALAHORRA",
+     "light": 1.95,
+     "heavy1": 3.62,
+     "heavy2": 4.18
+    },
+    {
+     "from": "LOGROÑO",
+     "to": "ALFARO",
+     "light": 3.5,
+     "heavy1": 6.5,
+     "heavy2": 7.5
+    },
+    {
+     "from": "RECAJO",
+     "to": "AGONCILLO",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "RECAJO",
+     "to": "LODOSA",
+     "light": 1.25,
+     "heavy1": 2.32,
+     "heavy2": 2.67
+    },
+    {
+     "from": "RECAJO",
+     "to": "CALAHORRA",
+     "light": 1.89,
+     "heavy1": 3.5,
+     "heavy2": 4.05
+    },
+    {
+     "from": "RECAJO",
+     "to": "ALFARO",
+     "light": 3.44,
+     "heavy1": 6.38,
+     "heavy2": 7.37
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "LODOSA",
+     "light": 1.23,
+     "heavy1": 2.29,
+     "heavy2": 2.64
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "CALAHORRA",
+     "light": 1.87,
+     "heavy1": 3.47,
+     "heavy2": 4.01
+    },
+    {
+     "from": "AGONCILLO",
+     "to": "ALFARO",
+     "light": 3.42,
+     "heavy1": 6.35,
+     "heavy2": 7.33
+    },
+    {
+     "from": "LODOSA",
+     "to": "CALAHORRA",
+     "light": 0.67,
+     "heavy1": 1.25,
+     "heavy2": 1.45
+    },
+    {
+     "from": "LODOSA",
+     "to": "ALFARO",
+     "light": 2.22,
+     "heavy1": 4.13,
+     "heavy2": 4.77
+    },
+    {
+     "from": "CALAHORRA",
+     "to": "ALFARO",
+     "light": 1.63,
+     "heavy1": 3.03,
+     "heavy2": 3.5
+    }
+   ]
+  },
+  {
+   "id": "AP-7 (Alicante-Cartagena)",
+   "name": "Alicante-Cartagena",
+   "type": "od",
+   "tariff": "multi",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-alicante---cartagena-2026.pdf",
+   "prices": [
+    {
+     "from": "724 Entronque con autovía A-7",
+     "to": "754 Carretera San Miguel Benijofar",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "730 Catral",
+     "to": "758 San Miguel de Salinas-Torrevieja",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "733 Catral-Albatera",
+     "to": "763 La Zenia Urbanizaciones",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "737 Almoradí-Dolores",
+     "to": "768 Campoamor-Urbanizaciones",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "740 Almoradí-Formentera",
+     "to": "770 El Pilar de la Horadada",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "743 Algorfa-Benijofar",
+     "to": "774 San Pedro del Pinatar (Norte)",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "745 CV90-Torrevieja",
+     "to": "775 Los Tárragas",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "751 Los Montesinos",
+     "to": "777 El Mirador-Colonia Ruiz de Alda",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 5.7,
+     "heavy1": 10.2,
+     "heavy2": 13.0
+    },
+    {
+     "from": "754 Carretera San Miguel Benijofar",
+     "to": "758 San Miguel de Salinas-Torrevieja",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "768 Campoamor",
+     "to": "Urbanizaciones",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "777 El Mirador",
+     "to": "Colonia Ruiz de Alda",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "758 San Miguel de Salinas",
+     "to": "Torrevieja 763 La Zenia Urbanizaciones",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "768 Campoamor",
+     "to": "Urbanizaciones",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "777 El Mirador",
+     "to": "Colonia Ruiz de Alda",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "763 La Zenia Urbanizaciones",
+     "to": "768 Campoamor-Urbanizaciones",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "777 El Mirador",
+     "to": "Colonia Ruiz de Alda",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 2.85,
+     "heavy1": 5.1,
+     "heavy2": 6.5
+    },
+    {
+     "from": "724 Entronque con autovía A-7",
+     "to": "754 Carretera San Miguel Benijofar",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "730 Catral",
+     "to": "758 San Miguel de Salinas-Torrevieja",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "733 Catral-Albatera",
+     "to": "763 La Zenia Urbanizaciones",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "737 Almoradí-Dolores",
+     "to": "768 Campoamor-Urbanizaciones",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "740 Almoradí-Formentera",
+     "to": "770 El Pilar de la Horadada",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "743 Algorfa-Benijofar",
+     "to": "774 San Pedro del Pinatar (Norte)",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "745 CV90-Torrevieja",
+     "to": "775 Los Tárragas",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "751 Los Montesinos",
+     "to": "777 El Mirador-Colonia Ruiz de Alda",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 10.2,
+     "heavy1": 11.9,
+     "heavy2": 14.4
+    },
+    {
+     "from": "754 Carretera San Miguel Benijofar",
+     "to": "758 San Miguel de Salinas-Torrevieja",
+     "light": 0.0,
+     "heavy1": 0.0,
+     "heavy2": 0.0
+    },
+    {
+     "from": "768 Campoamor",
+     "to": "Urbanizaciones",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "777 El Mirador",
+     "to": "Colonia Ruiz de Alda",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "758 San Miguel de Salinas",
+     "to": "Torrevieja 763 La Zenia Urbanizaciones",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "768 Campoamor",
+     "to": "Urbanizaciones",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "777 El Mirador",
+     "to": "Colonia Ruiz de Alda",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "763 La Zenia Urbanizaciones",
+     "to": "768 Campoamor-Urbanizaciones",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "777 El Mirador",
+     "to": "Colonia Ruiz de Alda",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "780 San Javier (Norte)",
+     "to": "Sucina",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "784 San Javier (Sur)",
+     "to": "Acceso aeropuerto",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "790 Los Alcazares (Centro)",
+     "to": "Torre Pacheco",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    },
+    {
+     "from": "800 Los Beatos",
+     "to": "El Algar",
+     "light": 5.1,
+     "heavy1": 5.95,
+     "heavy2": 7.2
+    }
+   ]
+  },
+  {
+   "id": "AP-7 (Estepona-Guadiaro)",
+   "name": "Estepona-Guadiaro",
+   "type": "od",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-estepona---guadiaro-2026.pdf",
+   "prices": [
+    {
+     "from": "ESTEPONA",
+     "to": "MANILVA",
+     "light": 1.2,
+     "heavy1": 1.8,
+     "heavy2": 2.35
+    },
+    {
+     "from": "ESTEPONA",
+     "to": "GUADIARO",
+     "light": 2.45,
+     "heavy1": 3.65,
+     "heavy2": 4.8
+    },
+    {
+     "from": "MANILVA",
+     "to": "GUADIARO",
+     "light": 1.2,
+     "heavy1": 1.8,
+     "heavy2": 2.35
+    },
+    {
+     "from": "ESTEPONA",
+     "to": "MANILVA",
+     "light": 2.0,
+     "heavy1": 2.25,
+     "heavy2": 3.4
+    },
+    {
+     "from": "ESTEPONA",
+     "to": "GUADIARO",
+     "light": 4.05,
+     "heavy1": 4.6,
+     "heavy2": 6.95
+    },
+    {
+     "from": "MANILVA",
+     "to": "GUADIARO",
+     "light": 2.0,
+     "heavy1": 2.25,
+     "heavy2": 3.4
+    }
+   ]
+  },
+  {
+   "id": "AP-7 (Málaga-Estepona)",
+   "name": "Málaga-Estepona",
+   "type": "od",
+   "tariff": "multi",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-7,-malaga---estepona-2026.pdf",
+   "prices": [
+    {
+     "from": "MALAGA",
+     "to": "CALAHONDA",
+     "light": 3.55,
+     "heavy1": 5.75,
+     "heavy2": 7.05
+    },
+    {
+     "from": "MALAGA",
+     "to": "MARBELLA",
+     "light": 5.7,
+     "heavy1": 9.25,
+     "heavy2": 11.35
+    },
+    {
+     "from": "MALAGA",
+     "to": "SAN PEDRO DE ALCANTARA",
+     "light": 7.9,
+     "heavy1": 12.85,
+     "heavy2": 15.8
+    },
+    {
+     "from": "MALAGA",
+     "to": "ESTEPONA",
+     "light": 9.55,
+     "heavy1": 15.5,
+     "heavy2": 19.05
+    },
+    {
+     "from": "CALAHONDA",
+     "to": "MARBELLA",
+     "light": 3.55,
+     "heavy1": 5.75,
+     "heavy2": 7.05
+    },
+    {
+     "from": "CALAHONDA",
+     "to": "SAN PEDRO DE ALCANTARA",
+     "light": 5.75,
+     "heavy1": 9.35,
+     "heavy2": 11.5
+    },
+    {
+     "from": "CALAHONDA",
+     "to": "ESTEPONA",
+     "light": 7.4,
+     "heavy1": 12.0,
+     "heavy2": 14.75
+    },
+    {
+     "from": "MARBELLA",
+     "to": "SAN PEDRO DEALCANTARA",
+     "light": 2.2,
+     "heavy1": 3.6,
+     "heavy2": 4.45
+    },
+    {
+     "from": "MARBELLA",
+     "to": "ESTEPONA",
+     "light": 3.85,
+     "heavy1": 6.25,
+     "heavy2": 7.7
+    },
+    {
+     "from": "SAN PEDRO DE ALCANTARA",
+     "to": "ESTEPONA",
+     "light": 2.2,
+     "heavy1": 3.6,
+     "heavy2": 4.45
+    },
+    {
+     "from": "MALAGA",
+     "to": "CALAHONDA",
+     "light": 5.75,
+     "heavy1": 5.75,
+     "heavy2": 9.5
+    },
+    {
+     "from": "MALAGA",
+     "to": "MARBELLA",
+     "light": 9.25,
+     "heavy1": 9.25,
+     "heavy2": 15.25
+    },
+    {
+     "from": "MALAGA",
+     "to": "SAN PEDRO DE ALCANTARA",
+     "light": 12.85,
+     "heavy1": 12.85,
+     "heavy2": 21.2
+    },
+    {
+     "from": "MALAGA",
+     "to": "ESTEPONA",
+     "light": 15.5,
+     "heavy1": 15.5,
+     "heavy2": 25.6
+    },
+    {
+     "from": "CALAHONDA",
+     "to": "MARBELLA",
+     "light": 5.75,
+     "heavy1": 5.75,
+     "heavy2": 9.5
+    },
+    {
+     "from": "CALAHONDA",
+     "to": "SAN PEDRO DE ALCANTARA",
+     "light": 9.35,
+     "heavy1": 9.35,
+     "heavy2": 15.45
+    },
+    {
+     "from": "CALAHONDA",
+     "to": "ESTEPONA",
+     "light": 12.0,
+     "heavy1": 12.0,
+     "heavy2": 19.85
+    },
+    {
+     "from": "MARBELLA",
+     "to": "SAN PEDRO DEALCANTARA",
+     "light": 3.6,
+     "heavy1": 3.6,
+     "heavy2": 5.95
+    },
+    {
+     "from": "MARBELLA",
+     "to": "ESTEPONA",
+     "light": 6.25,
+     "heavy1": 6.25,
+     "heavy2": 10.35
+    },
+    {
+     "from": "SAN PEDRO DE ALCANTARA",
+     "to": "ESTEPONA",
+     "light": 3.6,
+     "heavy1": 3.6,
+     "heavy2": 5.95
+    }
+   ]
+  },
+  {
+   "id": "AP-71",
+   "name": "León-Astorga",
+   "type": "od",
+   "tariff": "day/night",
+   "source": "https://cdnfomento.blob.core.windows.net/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-71,-leon---astorga-2026.pdf",
+   "prices": [
+    {
+     "from": "León",
+     "to": "Villadangos",
+     "night": {
+      "light": 0.7,
+      "heavy1": 1.15,
+      "heavy2": 1.4
+     },
+     "day": {
+      "light": 1.75,
+      "heavy1": 2.35,
+      "heavy2": 2.85
+     },
+     "light": 1.75
+    },
+    {
+     "from": "León",
+     "to": "Hospital de Orbigo",
+     "night": {
+      "light": 1.65,
+      "heavy1": 2.75,
+      "heavy2": 3.3
+     },
+     "day": {
+      "light": 4.05,
+      "heavy1": 5.45,
+      "heavy2": 6.6
+     },
+     "light": 4.05
+    },
+    {
+     "from": "León",
+     "to": "Astorga",
+     "night": {
+      "light": 2.5,
+      "heavy1": 4.15,
+      "heavy2": 5.05
+     },
+     "day": {
+      "light": 6.2,
+      "heavy1": 8.35,
+      "heavy2": 10.1
+     },
+     "light": 6.2
+    },
+    {
+     "from": "Villadangos",
+     "to": "Hospital de Orbigo",
+     "night": {
+      "light": 1.0,
+      "heavy1": 1.65,
+      "heavy2": 2.05
+     },
+     "day": {
+      "light": 2.5,
+      "heavy1": 3.35,
+      "heavy2": 4.05
+     },
+     "light": 2.5
+    },
+    {
+     "from": "Villadangos",
+     "to": "Astorga",
+     "night": {
+      "light": 1.85,
+      "heavy1": 3.1,
+      "heavy2": 3.8
+     },
+     "day": {
+      "light": 4.65,
+      "heavy1": 6.25,
+      "heavy2": 7.55
+     },
+     "light": 4.65
+    },
+    {
+     "from": "Hospital de Orbigo",
+     "to": "Astorga",
+     "night": {
+      "light": 0.95,
+      "heavy1": 1.6,
+      "heavy2": 1.95
+     },
+     "day": {
+      "light": 2.35,
+      "heavy1": 3.2,
+      "heavy2": 3.85
+     },
+     "light": 2.35
+    }
+   ]
+  },
+  {
+   "id": "AP-9",
+   "name": "Ferrol-frontera portuguesa",
+   "type": "od",
+   "source": "https://cdn.transportes.gob.es/portal-web-transportes/carreteras/nuestrared/autopistaspeaje/peajes-actuales/autopista-ap-9,-ferrol---frontera-portuguesa-2026.pdf",
+   "prices": [
+    {
+     "from": "FENE",
+     "to": "CABANAS",
+     "light": 1.15,
+     "heavy1": 1.1,
+     "heavy2": 1.35
+    },
+    {
+     "from": "FENE",
+     "to": "MIÑO",
+     "light": 2.6,
+     "heavy1": 2.4,
+     "heavy2": 3.0
+    },
+    {
+     "from": "FENE",
+     "to": "GUISAMO",
+     "light": 4.1,
+     "heavy1": 3.8,
+     "heavy2": 4.75
+    },
+    {
+     "from": "FENE",
+     "to": "A CORUÑA",
+     "light": 6.15,
+     "heavy1": 5.7,
+     "heavy2": 7.4
+    },
+    {
+     "from": "CABANAS",
+     "to": "MIÑO",
+     "light": 1.45,
+     "heavy1": 1.3,
+     "heavy2": 1.55
+    },
+    {
+     "from": "CABANAS",
+     "to": "GUISAMO",
+     "light": 2.6,
+     "heavy1": 2.3,
+     "heavy2": 2.8
+    },
+    {
+     "from": "CABANAS",
+     "to": "A CORUÑA",
+     "light": 4.65,
+     "heavy1": 4.15,
+     "heavy2": 5.5
+    },
+    {
+     "from": "MIÑO",
+     "to": "GUISAMO",
+     "light": 1.45,
+     "heavy1": 1.3,
+     "heavy2": 1.6
+    },
+    {
+     "from": "MIÑO",
+     "to": "A CORUÑA",
+     "light": 3.5,
+     "heavy1": 3.2,
+     "heavy2": 4.25
+    },
+    {
+     "from": "GUISAMO O STA MARTA",
+     "to": "MACENDA",
+     "light": 1.25,
+     "heavy1": 1.1,
+     "heavy2": 1.35
+    },
+    {
+     "from": "GUISAMO O STA MARTA",
+     "to": "ORDES",
+     "light": 4.75,
+     "heavy1": 4.25,
+     "heavy2": 5.25
+    },
+    {
+     "from": "GUISAMO O STA MARTA",
+     "to": "SIGUEIRO",
+     "light": 6.95,
+     "heavy1": 5.95,
+     "heavy2": 7.4
+    },
+    {
+     "from": "GUISAMO O STA MARTA",
+     "to": "SANTIAGO",
+     "light": 7.85,
+     "heavy1": 6.95,
+     "heavy2": 8.6
+    },
+    {
+     "from": "A CORUÑA O A BARCALA",
+     "to": "GUISAMO/STA MARTA",
+     "light": 2.05,
+     "heavy1": 1.85,
+     "heavy2": 2.65
+    },
+    {
+     "from": "A CORUÑA O A BARCALA",
+     "to": "MACENDA",
+     "light": 2.45,
+     "heavy1": 2.15,
+     "heavy2": 2.65
+    },
+    {
+     "from": "A CORUÑA O A BARCALA",
+     "to": "ORDES",
+     "light": 5.8,
+     "heavy1": 5.35,
+     "heavy2": 6.55
+    },
+    {
+     "from": "A CORUÑA O A BARCALA",
+     "to": "SIGUEIRO",
+     "light": 7.95,
+     "heavy1": 7.1,
+     "heavy2": 8.8
+    },
+    {
+     "from": "A CORUÑA O A BARCALA",
+     "to": "SANTIAGO",
+     "light": 8.8,
+     "heavy1": 7.8,
+     "heavy2": 9.6
+    },
+    {
+     "from": "MACENDA",
+     "to": "ORDES",
+     "light": 4.0,
+     "heavy1": 3.5,
+     "heavy2": 4.3
+    },
+    {
+     "from": "MACENDA",
+     "to": "SIGUEIRO",
+     "light": 5.85,
+     "heavy1": 5.2,
+     "heavy2": 6.4
+    },
+    {
+     "from": "MACENDA",
+     "to": "SANTIAGO",
+     "light": 7.9,
+     "heavy1": 7.0,
+     "heavy2": 8.65
+    },
+    {
+     "from": "ORDES",
+     "to": "SIGUEIRO",
+     "light": 2.35,
+     "heavy1": 1.9,
+     "heavy2": 2.45
+    },
+    {
+     "from": "ORDES",
+     "to": "SANTIAGO",
+     "light": 3.3,
+     "heavy1": 2.65,
+     "heavy2": 3.25
+    },
+    {
+     "from": "SIGÜEIRO",
+     "to": "SANTIAGO",
+     "light": 2.25,
+     "heavy1": 2.0,
+     "heavy2": 2.5
+    },
+    {
+     "from": "SIGÜEIRO",
+     "to": "SIGÜEIRO",
+     "light": 0.25,
+     "heavy1": 0.2,
+     "heavy2": 0.25
+    },
+    {
+     "from": "SANTIAGO",
+     "to": "SANTIAGO",
+     "light": 4.55,
+     "heavy1": 4.05,
+     "heavy2": 4.95
+    },
+    {
+     "from": "SANTIAGO",
+     "to": "PADRON",
+     "light": 3.15,
+     "heavy1": 2.6,
+     "heavy2": 3.2
+    },
+    {
+     "from": "SANTIAGO",
+     "to": "CALDAS DE REIS",
+     "light": 4.95,
+     "heavy1": 4.15,
+     "heavy2": 5.2
+    },
+    {
+     "from": "SANTIAGO",
+     "to": "CURRO",
+     "light": 6.6,
+     "heavy1": 5.6,
+     "heavy2": 7.1
+    },
+    {
+     "from": "SANTIAGO",
+     "to": "PONTEVEDRA",
+     "light": 7.55,
+     "heavy1": 6.3,
+     "heavy2": 7.95
+    },
+    {
+     "from": "PADRON",
+     "to": "CALDAS DE REIS",
+     "light": 2.3,
+     "heavy1": 1.95,
+     "heavy2": 2.6
+    },
+    {
+     "from": "PADRON",
+     "to": "CURRO",
+     "light": 3.85,
+     "heavy1": 3.35,
+     "heavy2": 4.2
+    },
+    {
+     "from": "PADRON",
+     "to": "PONTEVEDRA",
+     "light": 4.95,
+     "heavy1": 4.15,
+     "heavy2": 5.25
+    },
+    {
+     "from": "CARRACEDO",
+     "to": "CALDAS DE REIS",
+     "light": 0.95,
+     "heavy1": 0.75,
+     "heavy2": 0.9
+    },
+    {
+     "from": "CARRACEDO",
+     "to": "CURRO",
+     "light": 2.2,
+     "heavy1": 1.9,
+     "heavy2": 2.45
+    },
+    {
+     "from": "CARRACEDO",
+     "to": "PONTEVEDRA",
+     "light": 3.45,
+     "heavy1": 2.85,
+     "heavy2": 3.7
+    },
+    {
+     "from": "CALDAS DE REIS",
+     "to": "CURRO",
+     "light": 1.65,
+     "heavy1": 1.45,
+     "heavy2": 1.75
+    },
+    {
+     "from": "CALDAS DE REIS",
+     "to": "PONTEVEDRA",
+     "light": 2.85,
+     "heavy1": 2.4,
+     "heavy2": 3.0
+    },
+    {
+     "from": "CURRO",
+     "to": "PONTEVEDRA",
+     "light": 1.8,
+     "heavy1": 1.6,
+     "heavy2": 1.95
+    },
+    {
+     "from": "PONTEVEDRA",
+     "to": "VILABOA",
+     "light": 1.45,
+     "heavy1": 1.25,
+     "heavy2": 1.55
+    },
+    {
+     "from": "PONTEVEDRA",
+     "to": "MORRAZO",
+     "light": 3.65,
+     "heavy1": 2.45,
+     "heavy2": 3.8
+    },
+    {
+     "from": "PONTEVEDRA",
+     "to": "VIGO / PUXEIROS",
+     "light": 5.05,
+     "heavy1": 4.1,
+     "heavy2": 5.45
+    },
+    {
+     "from": "PUXEIROS",
+     "to": "PORRIÑO",
+     "light": 2.1,
+     "heavy1": 1.7,
+     "heavy2": 2.3
+    },
+    {
+     "from": "PUXEIROS",
+     "to": "TUI",
+     "light": 3.55,
+     "heavy1": 2.9,
+     "heavy2": 3.85
+    },
+    {
+     "from": "PORRIÑO",
+     "to": "TUI",
+     "light": 2.1,
+     "heavy1": 1.7,
+     "heavy2": 2.3
+    }
+   ]
+  }
+ ]
+}
